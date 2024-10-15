@@ -7,6 +7,25 @@ Your team is to write a program to print a number of options presented to the us
 
 The options should be numbered from 1 – 9; although your team can use less than 9 options, but make sure there are at least 5 options. If the user selects a valid choice, the program should print a short message. The message should include the value that the user typed.
 
+Declare a variable ("1-5")
+
+A program with 5 choosable numbers
+
+Ask user to chose a number
+
+if number is equal to the list
+ print: ("The following text aligned with said number")
+ 
+count = 0
+while (count < 1):
+    count = count + 1
+    print("Assigned text")
+else:
+    print("Wrong number!")
+    
+else:
+print: ("Wrong Number!")
+
 number = int(input("Choose a number from 1-5!"))
 
 if number == 1:
